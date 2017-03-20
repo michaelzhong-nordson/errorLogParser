@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Scanner;
 
+//Begin Method
 class errorLogParser {
 	public static void main(String[] args){
 		HashMap <String, HashMap> eventType = new HashMap();
