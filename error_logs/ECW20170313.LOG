@@ -1,0 +1,633 @@
+2017-Mar-13 15:09:12.410  Event   Startup      Log Manager Started
+2017-Mar-13 15:09:12.419  Event   Startup      ECW Version 6.0.0.188
+2017-Mar-13 15:09:12.476  Event   Startup      Customer Name: e.g., Nordson Asymtek
+2017-Mar-13 15:09:12.476  Event   Startup      Customer Location: e.g., Carlsbad, CA, USA
+2017-Mar-13 15:09:12.476  Event   Startup      Line Description: e.g., Line 6
+2017-Mar-13 15:09:12.476  Event   Startup      Machine Description: e.g., Coater 1
+2017-Mar-13 15:09:12.477  Event   Startup      Serial Number: SXXXXX
+2017-Mar-13 15:09:12.477  Event   Startup      Activating General Workcell Module Module
+2017-Mar-13 15:09:12.522  Event   Startup      Activating RS232ACLPlusRobotModule Module
+2017-Mar-13 15:09:12.530  Warning Startup      TBD: polling setup removed from here
+2017-Mar-13 15:09:12.589  Event   Robot        Calibration File Loaded: C:\GITHUB\EASYCOAT\MAIN APPLICATION\SN6484.PMC
+2017-Mar-13 15:09:12.590  Warning Startup      TBD: create qspi mgr here?
+2017-Mar-13 15:09:12.984  Event   Startup      Activating NordCameraModule Module
+2017-Mar-13 15:09:16.665  Event   Camera       Adding Lighting Channel Blue with Analog Output 6
+2017-Mar-13 15:09:16.666  Event   Camera       Adding Lighting Channel Red with Analog Output 7
+2017-Mar-13 15:09:17.879  Event   Runtime      Registering Tool: Genie Camera
+2017-Mar-13 15:09:17.885  Warning Startup      Help Topic not found: "Circle Coat"
+2017-Mar-13 15:09:17.885  Warning Startup      Help Topic not found: "Mask Region"
+2017-Mar-13 15:09:17.885  Event   Startup      Activating ConformalCoatingModule Module
+2017-Mar-13 15:09:17.889  Event   Dispense     Tool Film Coater FLUID cycles = 0
+2017-Mar-13 15:09:17.891  Event   Dispense     Tool Film Coater FluidPressure cycles = 0
+2017-Mar-13 15:09:17.892  Event   Dispense     Tool Film Coater TOGGLE cycles = 0
+2017-Mar-13 15:09:17.900  Event   Startup      Activating FanWidthControlModule Module
+2017-Mar-13 15:09:17.905  Event   Runtime      Registering Tool: Film Coater
+2017-Mar-13 15:09:17.914  Event   Startup      Activating SC400Module Module
+2017-Mar-13 15:09:17.937  Event   Dispense     Tool SC400 Applicator FLUID cycles = 0
+2017-Mar-13 15:09:17.940  Event   Dispense     Tool SC400 Applicator FluidPressure cycles = 0
+2017-Mar-13 15:09:17.942  Event   Dispense     Tool SC400 Applicator ActuationPressure cycles = 0
+2017-Mar-13 15:09:17.943  Event   Dispense     Tool SC400 Applicator TOGGLE cycles = 0
+2017-Mar-13 15:09:17.950  Event   Startup      Activating NeedleFinderModule Module
+2017-Mar-13 15:09:17.952  Event   Runtime      Registering Tool: SC400 Applicator
+2017-Mar-13 15:09:17.959  Event   Dispense     Tool DV0X Applicator FLUID cycles = 0
+2017-Mar-13 15:09:17.960  Event   Dispense     Tool DV0X Applicator FluidPressure cycles = 0
+2017-Mar-13 15:09:17.961  Event   Dispense     Tool DV0X Applicator PRESSURESOLENOID cycles = 0
+2017-Mar-13 15:09:17.962  Event   Dispense     Tool DV0X Applicator TOGGLE cycles = 0
+2017-Mar-13 15:09:17.965  Event   Runtime      Registering Tool: DV0X Applicator
+2017-Mar-13 15:09:17.968  Event   Runtime      Registering Tool: Tool Flange
+2017-Mar-13 15:09:19.024  Event   Runtime      Loaded Program C:\GitHub\EasyCoat\Main Application\Programs\Macro1.ECM
+2017-Mar-13 15:09:19.024  Event   Runtime      Loaded Program C:\trunk ver 590 snapshotNew\Main Application\Programs\GPVTest.ECW
+2017-Mar-13 15:09:19.030  Event   Startup      Activating C940ConveyorModule Module
+2017-Mar-13 15:09:19.057  Warning Startup      TBD: create qspi mgr here?
+2017-Mar-13 15:09:22.382  Warning Runtime      Dump Start
+2017-Mar-13 15:09:17.969  Debug   Robot        Input 0 Off
+2017-Mar-13 15:09:17.969  Debug   Robot        Input 0 Off
+2017-Mar-13 15:09:17.969  Debug   Robot        Input 0 Off
+2017-Mar-13 15:09:17.969  Debug   Robot        Input 0 Off
+2017-Mar-13 15:09:17.969  Debug   Robot        Input 0 Off
+2017-Mar-13 15:09:17.969  Debug   Robot        Input 0 Off
+2017-Mar-13 15:09:17.969  Debug   Comm         SL-94X Automove Robot TX: DI32;
+2017-Mar-13 15:09:18.026  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.027  Debug   Robot        Input 32 Off
+2017-Mar-13 15:09:18.027  Debug   Comm         SL-94X Automove Robot TX: DI33;
+2017-Mar-13 15:09:18.037  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.038  Debug   Robot        Input 33 Off
+2017-Mar-13 15:09:18.038  Debug   Comm         SL-94X Automove Robot TX: DI34;
+2017-Mar-13 15:09:18.047  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.047  Debug   Robot        Input 34 Off
+2017-Mar-13 15:09:18.047  Debug   Comm         SL-94X Automove Robot TX: DI35;
+2017-Mar-13 15:09:18.056  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.056  Debug   Robot        Input 35 Off
+2017-Mar-13 15:09:18.056  Debug   Comm         SL-94X Automove Robot TX: DI36;
+2017-Mar-13 15:09:18.065  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.066  Debug   Robot        Input 36 Off
+2017-Mar-13 15:09:18.066  Debug   Comm         SL-94X Automove Robot TX: DI37;
+2017-Mar-13 15:09:18.075  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.076  Debug   Robot        Input 37 Off
+2017-Mar-13 15:09:18.076  Debug   Comm         SL-94X Automove Robot TX: DI38;
+2017-Mar-13 15:09:18.085  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.086  Debug   Robot        Input 38 Off
+2017-Mar-13 15:09:18.086  Debug   Comm         SL-94X Automove Robot TX: DI39;
+2017-Mar-13 15:09:18.095  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.096  Debug   Robot        Input 39 Off
+2017-Mar-13 15:09:18.096  Debug   Comm         SL-94X Automove Robot TX: DI40;
+2017-Mar-13 15:09:18.105  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.106  Debug   Robot        Input 40 Off
+2017-Mar-13 15:09:18.106  Debug   Comm         SL-94X Automove Robot TX: DI41;
+2017-Mar-13 15:09:18.115  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.116  Debug   Robot        Input 41 Off
+2017-Mar-13 15:09:18.116  Debug   Comm         SL-94X Automove Robot TX: DI42;
+2017-Mar-13 15:09:18.125  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.126  Debug   Robot        Input 42 Off
+2017-Mar-13 15:09:18.126  Debug   Comm         SL-94X Automove Robot TX: DI43;
+2017-Mar-13 15:09:18.135  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.136  Debug   Robot        Input 43 Off
+2017-Mar-13 15:09:18.136  Debug   Comm         SL-94X Automove Robot TX: DI44;
+2017-Mar-13 15:09:18.145  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.146  Debug   Robot        Input 44 Off
+2017-Mar-13 15:09:18.146  Debug   Comm         SL-94X Automove Robot TX: DI45;
+2017-Mar-13 15:09:18.155  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.156  Debug   Robot        Input 45 Off
+2017-Mar-13 15:09:18.156  Debug   Comm         SL-94X Automove Robot TX: DI46;
+2017-Mar-13 15:09:18.165  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.166  Debug   Robot        Input 46 Off
+2017-Mar-13 15:09:18.166  Debug   Comm         SL-94X Automove Robot TX: DI47;
+2017-Mar-13 15:09:18.175  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.176  Debug   Robot        Input 47 Off
+2017-Mar-13 15:09:18.176  Debug   Comm         SL-94X Automove Robot TX: DI48;
+2017-Mar-13 15:09:18.185  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.186  Debug   Robot        Input 48 Off
+2017-Mar-13 15:09:18.186  Debug   Comm         SL-94X Automove Robot TX: DI49;
+2017-Mar-13 15:09:18.195  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.196  Debug   Robot        Input 49 Off
+2017-Mar-13 15:09:18.196  Debug   Comm         SL-94X Automove Robot TX: DI50;
+2017-Mar-13 15:09:18.205  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.206  Debug   Robot        Input 50 Off
+2017-Mar-13 15:09:18.206  Debug   Comm         SL-94X Automove Robot TX: DI51;
+2017-Mar-13 15:09:18.215  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.216  Debug   Robot        Input 51 Off
+2017-Mar-13 15:09:18.216  Debug   Comm         SL-94X Automove Robot TX: DI52;
+2017-Mar-13 15:09:18.225  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.226  Debug   Robot        Input 52 Off
+2017-Mar-13 15:09:18.226  Debug   Comm         SL-94X Automove Robot TX: DI53;
+2017-Mar-13 15:09:18.235  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.236  Debug   Robot        Input 53 Off
+2017-Mar-13 15:09:18.236  Debug   Comm         SL-94X Automove Robot TX: DI54;
+2017-Mar-13 15:09:18.245  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.246  Debug   Robot        Input 54 Off
+2017-Mar-13 15:09:18.246  Debug   Comm         SL-94X Automove Robot TX: DI55;
+2017-Mar-13 15:09:18.255  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.256  Debug   Robot        Input 55 Off
+2017-Mar-13 15:09:18.256  Debug   Comm         SL-94X Automove Robot TX: DI56;
+2017-Mar-13 15:09:18.265  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.265  Debug   Robot        Input 56 Off
+2017-Mar-13 15:09:18.265  Debug   Comm         SL-94X Automove Robot TX: DI57;
+2017-Mar-13 15:09:18.274  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.275  Debug   Robot        Input 57 Off
+2017-Mar-13 15:09:18.275  Debug   Comm         SL-94X Automove Robot TX: DI58;
+2017-Mar-13 15:09:18.284  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.285  Debug   Robot        Input 58 Off
+2017-Mar-13 15:09:18.285  Debug   Comm         SL-94X Automove Robot TX: DI59;
+2017-Mar-13 15:09:18.294  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.295  Debug   Robot        Input 59 Off
+2017-Mar-13 15:09:18.295  Debug   Comm         SL-94X Automove Robot TX: DI60;
+2017-Mar-13 15:09:18.303  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.303  Debug   Robot        Input 60 Off
+2017-Mar-13 15:09:18.303  Debug   Comm         SL-94X Automove Robot TX: DI61;
+2017-Mar-13 15:09:18.312  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.313  Debug   Robot        Input 61 Off
+2017-Mar-13 15:09:18.313  Debug   Comm         SL-94X Automove Robot TX: DI62;
+2017-Mar-13 15:09:18.322  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.323  Debug   Robot        Input 62 Off
+2017-Mar-13 15:09:18.323  Debug   Comm         SL-94X Automove Robot TX: DI63;
+2017-Mar-13 15:09:18.332  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.332  Debug   Robot        Input 63 Off
+2017-Mar-13 15:09:18.332  Debug   Comm         SL-94X Automove Robot TX: DI64;
+2017-Mar-13 15:09:18.341  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.342  Debug   Robot        Input 64 Off
+2017-Mar-13 15:09:18.342  Debug   Comm         SL-94X Automove Robot TX: DI65;
+2017-Mar-13 15:09:18.351  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.352  Debug   Robot        Input 65 Off
+2017-Mar-13 15:09:18.352  Debug   Comm         SL-94X Automove Robot TX: DI66;
+2017-Mar-13 15:09:18.361  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.362  Debug   Robot        Input 66 Off
+2017-Mar-13 15:09:18.362  Debug   Comm         SL-94X Automove Robot TX: DI67;
+2017-Mar-13 15:09:18.371  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.372  Debug   Robot        Input 67 Off
+2017-Mar-13 15:09:18.372  Debug   Comm         SL-94X Automove Robot TX: DI68;
+2017-Mar-13 15:09:18.381  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.382  Debug   Robot        Input 68 Off
+2017-Mar-13 15:09:18.382  Debug   Comm         SL-94X Automove Robot TX: DI69;
+2017-Mar-13 15:09:18.391  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.392  Debug   Robot        Input 69 Off
+2017-Mar-13 15:09:18.392  Debug   Comm         SL-94X Automove Robot TX: DI70;
+2017-Mar-13 15:09:18.400  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.401  Debug   Robot        Input 70 Off
+2017-Mar-13 15:09:18.401  Debug   Comm         SL-94X Automove Robot TX: DI71;
+2017-Mar-13 15:09:18.409  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.409  Debug   Robot        Input 71 Off
+2017-Mar-13 15:09:18.409  Debug   Comm         SL-94X Automove Robot TX: DI72;
+2017-Mar-13 15:09:18.418  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.418  Debug   Robot        Input 72 Off
+2017-Mar-13 15:09:18.418  Debug   Comm         SL-94X Automove Robot TX: DI73;
+2017-Mar-13 15:09:18.426  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.427  Debug   Robot        Input 73 Off
+2017-Mar-13 15:09:18.427  Debug   Comm         SL-94X Automove Robot TX: DI74;
+2017-Mar-13 15:09:18.436  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.437  Debug   Robot        Input 74 Off
+2017-Mar-13 15:09:18.437  Debug   Comm         SL-94X Automove Robot TX: DI75;
+2017-Mar-13 15:09:18.445  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.446  Debug   Robot        Input 75 Off
+2017-Mar-13 15:09:18.446  Debug   Comm         SL-94X Automove Robot TX: DI76;
+2017-Mar-13 15:09:18.454  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.455  Debug   Robot        Input 76 Off
+2017-Mar-13 15:09:18.455  Debug   Comm         SL-94X Automove Robot TX: DI77;
+2017-Mar-13 15:09:18.463  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.464  Debug   Robot        Input 77 Off
+2017-Mar-13 15:09:18.464  Debug   Comm         SL-94X Automove Robot TX: DI78;
+2017-Mar-13 15:09:18.472  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.473  Debug   Robot        Input 78 Off
+2017-Mar-13 15:09:18.473  Debug   Comm         SL-94X Automove Robot TX: DI79;
+2017-Mar-13 15:09:18.481  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.482  Debug   Robot        Input 79 Off
+2017-Mar-13 15:09:18.482  Debug   Comm         SL-94X Automove Robot TX: DI80;
+2017-Mar-13 15:09:18.490  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.491  Debug   Robot        Input 80 Off
+2017-Mar-13 15:09:18.491  Debug   Comm         SL-94X Automove Robot TX: DI81;
+2017-Mar-13 15:09:18.499  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.500  Debug   Robot        Input 81 Off
+2017-Mar-13 15:09:18.500  Debug   Comm         SL-94X Automove Robot TX: DI82;
+2017-Mar-13 15:09:18.508  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.509  Debug   Robot        Input 82 Off
+2017-Mar-13 15:09:18.509  Debug   Comm         SL-94X Automove Robot TX: DI83;
+2017-Mar-13 15:09:18.517  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.518  Debug   Robot        Input 83 Off
+2017-Mar-13 15:09:18.518  Debug   Comm         SL-94X Automove Robot TX: DI84;
+2017-Mar-13 15:09:18.526  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.527  Debug   Robot        Input 84 Off
+2017-Mar-13 15:09:18.527  Debug   Comm         SL-94X Automove Robot TX: DI85;
+2017-Mar-13 15:09:18.535  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.536  Debug   Robot        Input 85 Off
+2017-Mar-13 15:09:18.536  Debug   Comm         SL-94X Automove Robot TX: DI86;
+2017-Mar-13 15:09:18.544  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.545  Debug   Robot        Input 86 Off
+2017-Mar-13 15:09:18.545  Debug   Comm         SL-94X Automove Robot TX: DI87;
+2017-Mar-13 15:09:18.553  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.554  Debug   Robot        Input 87 Off
+2017-Mar-13 15:09:18.554  Debug   Comm         SL-94X Automove Robot TX: DI88;
+2017-Mar-13 15:09:18.562  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.563  Debug   Robot        Input 88 Off
+2017-Mar-13 15:09:18.563  Debug   Comm         SL-94X Automove Robot TX: DI89;
+2017-Mar-13 15:09:18.571  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.572  Debug   Robot        Input 89 Off
+2017-Mar-13 15:09:18.572  Debug   Comm         SL-94X Automove Robot TX: DI90;
+2017-Mar-13 15:09:18.580  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.581  Debug   Robot        Input 90 Off
+2017-Mar-13 15:09:18.581  Debug   Comm         SL-94X Automove Robot TX: DI91;
+2017-Mar-13 15:09:18.589  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.590  Debug   Robot        Input 91 Off
+2017-Mar-13 15:09:18.590  Debug   Comm         SL-94X Automove Robot TX: DI92;
+2017-Mar-13 15:09:18.598  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.599  Debug   Robot        Input 92 Off
+2017-Mar-13 15:09:18.599  Debug   Comm         SL-94X Automove Robot TX: DI93;
+2017-Mar-13 15:09:18.607  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.607  Debug   Robot        Input 93 Off
+2017-Mar-13 15:09:18.607  Debug   Comm         SL-94X Automove Robot TX: DI94;
+2017-Mar-13 15:09:18.615  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.615  Debug   Robot        Input 94 Off
+2017-Mar-13 15:09:18.615  Debug   Comm         SL-94X Automove Robot TX: DI95;
+2017-Mar-13 15:09:18.623  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.624  Debug   Robot        Input 95 Off
+2017-Mar-13 15:09:18.624  Debug   Comm         SL-94X Automove Robot TX: DI96;
+2017-Mar-13 15:09:18.632  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.633  Debug   Robot        Input 96 Off
+2017-Mar-13 15:09:18.633  Debug   Comm         SL-94X Automove Robot TX: DI97;
+2017-Mar-13 15:09:18.641  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.642  Debug   Robot        Input 97 Off
+2017-Mar-13 15:09:18.642  Debug   Comm         SL-94X Automove Robot TX: DI98;
+2017-Mar-13 15:09:18.650  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.650  Debug   Robot        Input 98 Off
+2017-Mar-13 15:09:18.650  Debug   Comm         SL-94X Automove Robot TX: DI99;
+2017-Mar-13 15:09:18.658  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.659  Debug   Robot        Input 99 Off
+2017-Mar-13 15:09:18.659  Debug   Comm         SL-94X Automove Robot TX: DI100;
+2017-Mar-13 15:09:18.667  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.668  Debug   Robot        Input 100 Off
+2017-Mar-13 15:09:18.668  Debug   Comm         SL-94X Automove Robot TX: DI101;
+2017-Mar-13 15:09:18.676  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.676  Debug   Robot        Input 101 Off
+2017-Mar-13 15:09:18.676  Debug   Comm         SL-94X Automove Robot TX: DI102;
+2017-Mar-13 15:09:18.684  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.684  Debug   Robot        Input 102 Off
+2017-Mar-13 15:09:18.684  Debug   Comm         SL-94X Automove Robot TX: DI103;
+2017-Mar-13 15:09:18.692  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.693  Debug   Robot        Input 103 Off
+2017-Mar-13 15:09:18.693  Debug   Comm         SL-94X Automove Robot TX: DI104;
+2017-Mar-13 15:09:18.701  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.702  Debug   Robot        Input 104 Off
+2017-Mar-13 15:09:18.702  Debug   Comm         SL-94X Automove Robot TX: DI105;
+2017-Mar-13 15:09:18.711  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.711  Debug   Robot        Input 105 Off
+2017-Mar-13 15:09:18.711  Debug   Comm         SL-94X Automove Robot TX: DI106;
+2017-Mar-13 15:09:18.719  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.720  Debug   Robot        Input 106 Off
+2017-Mar-13 15:09:18.720  Debug   Comm         SL-94X Automove Robot TX: DI107;
+2017-Mar-13 15:09:18.728  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.729  Debug   Robot        Input 107 Off
+2017-Mar-13 15:09:18.729  Debug   Comm         SL-94X Automove Robot TX: SA66,0;
+2017-Mar-13 15:09:18.735  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 108 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 109 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 110 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 111 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 112 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 113 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 114 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 115 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 116 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 117 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 118 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 119 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 120 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 121 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 122 Off
+2017-Mar-13 15:09:18.735  Debug   Robot        Input 123 Off
+2017-Mar-13 15:09:18.735  Debug   Comm         SL-94X Automove Robot TX: DO,8,1;
+2017-Mar-13 15:09:18.736  Debug   Comm         SL-94X Automove Robot TX: DO,48,1;
+2017-Mar-13 15:09:18.736  Debug   Comm         SL-94X Automove Robot TX: SA64,1,512,512;
+2017-Mar-13 15:09:18.737  Debug   Comm         SL-94X Automove Robot TX: SA64,1,1024,1024;
+2017-Mar-13 15:09:18.738  Debug   Comm         SL-94X Automove Robot TX: OP25;
+2017-Mar-13 15:09:18.747  Debug   Comm         SL-94X Automove Robot RX: 52549<0x D>
+2017-Mar-13 15:09:18.748  Debug   Comm         SL-94X Automove Robot TX: OP19;
+2017-Mar-13 15:09:18.753  Debug   Comm         SL-94X Automove Robot RX: 1<0x D>
+2017-Mar-13 15:09:18.753  Debug   Comm         SL-94X Automove Robot TX: OP26;
+2017-Mar-13 15:09:18.759  Debug   Comm         SL-94X Automove Robot RX: 52000<0x D>
+2017-Mar-13 15:09:18.760  Debug   Comm         SL-94X Automove Robot TX: OP20;
+2017-Mar-13 15:09:18.765  Debug   Comm         SL-94X Automove Robot RX: 1<0x D>
+2017-Mar-13 15:09:18.765  Debug   Comm         SL-94X Automove Robot TX: OP45;
+2017-Mar-13 15:09:18.771  Debug   Comm         SL-94X Automove Robot RX: 9980<0x D>
+2017-Mar-13 15:09:18.772  Debug   Comm         SL-94X Automove Robot TX: CZ20320;
+2017-Mar-13 15:09:18.773  Debug   Comm         SL-94X Automove Robot TX: OP126;
+2017-Mar-13 15:09:18.779  Debug   Comm         SL-94X Automove Robot RX: 10<0x D>
+2017-Mar-13 15:09:18.780  Debug   Startup      Jerk read = 10.00 Megasteps/s^3
+2017-Mar-13 15:09:18.780  Debug   Startup      Jerk set = 100000.00 mm/s^3
+2017-Mar-13 15:09:18.780  Debug   Comm         SL-94X Automove Robot TX: PE129,1;
+2017-Mar-13 15:09:18.781  Debug   Comm         SL-94X Automove Robot TX: PE103,0;
+2017-Mar-13 15:09:18.782  Debug   Comm         SL-94X Automove Robot TX: PE149,1;
+2017-Mar-13 15:09:18.783  Debug   Robot        TACLRobot.GetCurrentPosition
+2017-Mar-13 15:09:18.783  Debug   Comm         SL-94X Automove Robot TX: OC
+2017-Mar-13 15:09:18.797  Debug   Comm         SL-94X Automove Robot RX: 0,0<0x D>
+2017-Mar-13 15:09:18.797  Debug   Comm         SL-94X Automove Robot TX: OZ
+2017-Mar-13 15:09:18.805  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:18.805  Debug   Comm         SL-94X Automove Robot TX: OS
+2017-Mar-13 15:09:18.832  Debug   Comm         SL-94X Automove Robot RX: 192<0x D>
+2017-Mar-13 15:09:18.833  Debug   Comm         SL-94X Automove Robot TX: SA98,0;
+2017-Mar-13 15:09:18.839  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.840  Debug   Comm         SL-94X Automove Robot TX: SA99,0;
+2017-Mar-13 15:09:18.846  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.846  Debug   Comm         SL-94X Automove Robot TX: SA96,0;
+2017-Mar-13 15:09:18.852  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.853  Debug   Comm         SL-94X Automove Robot TX: SA97,0;
+2017-Mar-13 15:09:18.859  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.860  Debug   Comm         SL-94X Automove Robot TX: SA100,0;
+2017-Mar-13 15:09:18.866  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.867  Debug   Comm         SL-94X Automove Robot TX: SA101,0;
+2017-Mar-13 15:09:18.873  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.874  Debug   Comm         SL-94X Automove Robot TX: SA102,0;
+2017-Mar-13 15:09:18.880  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.881  Debug   Comm         SL-94X Automove Robot TX: SA103,0;
+2017-Mar-13 15:09:18.887  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.887  Debug   Comm         SL-94X Automove Robot TX: TC0,2;
+2017-Mar-13 15:09:18.893  Debug   Comm         SL-94X Automove Robot RX: nan<0x D>
+2017-Mar-13 15:09:18.923  Debug   Comm         SL-94X Automove Robot TX: TC2,2;
+2017-Mar-13 15:09:18.930  Debug   Comm         SL-94X Automove Robot RX: nan<0x D>
+2017-Mar-13 15:09:18.933  Debug   Comm         SL-94X Automove Robot TX: RA4;
+2017-Mar-13 15:09:18.942  Debug   Comm         SL-94X Automove Robot RX: 15<0x D>
+2017-Mar-13 15:09:18.943  Debug   Comm         SL-94X Automove Robot TX: SA98,0;
+2017-Mar-13 15:09:18.950  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.951  Debug   Comm         SL-94X Automove Robot TX: SA99,0;
+2017-Mar-13 15:09:18.958  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.958  Debug   Comm         SL-94X Automove Robot TX: SA96,0;
+2017-Mar-13 15:09:18.965  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.966  Debug   Comm         SL-94X Automove Robot TX: SA97,0;
+2017-Mar-13 15:09:18.973  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.974  Debug   Comm         SL-94X Automove Robot TX: SA100,0;
+2017-Mar-13 15:09:18.981  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.982  Debug   Comm         SL-94X Automove Robot TX: SA101,0;
+2017-Mar-13 15:09:18.989  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.989  Debug   Comm         SL-94X Automove Robot TX: SA102,0;
+2017-Mar-13 15:09:18.996  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:18.996  Debug   Comm         SL-94X Automove Robot TX: SA103,0;
+2017-Mar-13 15:09:19.003  Debug   Comm         SL-94X Automove Robot RX: 0 x0<0x D>
+2017-Mar-13 15:09:19.004  Debug   Comm         SL-94X Automove Robot TX: DO,39,0;
+2017-Mar-13 15:09:19.005  Debug   Comm         SL-94X Automove Robot TX: DO,40,0;
+2017-Mar-13 15:09:19.006  Debug   Comm         SL-94X Automove Robot TX: DO,41,0;
+2017-Mar-13 15:09:19.007  Debug   Comm         SL-94X Automove Robot TX: DO,42,0;
+2017-Mar-13 15:09:19.008  Debug   Comm         SL-94X Automove Robot TX: DO,43,1;
+2017-Mar-13 15:09:19.009  Debug   Comm         SL-94X Automove Robot TX: DO,44,0;
+2017-Mar-13 15:09:19.010  Debug   Comm         SL-94X Automove Robot TX: DO,45,0;
+2017-Mar-13 15:09:19.011  Debug   Comm         SL-94X Automove Robot TX: DO,46,0;
+2017-Mar-13 15:09:19.012  Debug   Comm         SL-94X Automove Robot TX: DO,47,0;
+2017-Mar-13 15:09:19.012  Debug   Robot        ACLPollingThread Disabling
+2017-Mar-13 15:09:19.013  Debug   Runtime      Thread Disable Exit
+2017-Mar-13 15:09:19.013  Debug   Robot        Lock granted
+2017-Mar-13 15:09:19.013  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,128;
+2017-Mar-13 15:09:19.014  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,8;
+2017-Mar-13 15:09:19.015  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,1;
+2017-Mar-13 15:09:19.016  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,16;
+2017-Mar-13 15:09:19.017  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,4;
+2017-Mar-13 15:09:19.018  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,64;
+2017-Mar-13 15:09:19.019  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,2;
+2017-Mar-13 15:09:19.020  Debug   Comm         SL-94X Automove Robot TX: SA64,1,0,32;
+2017-Mar-13 15:09:19.021  Debug   Runtime      Thread Enable Enter
+2017-Mar-13 15:09:19.021  Debug   Robot        ACLPollingThread Enabling
+2017-Mar-13 15:09:19.021  Debug   Robot        ACLPollingThread End Outer Loop
+2017-Mar-13 15:09:19.021  Debug   Comm         SL-94X Automove Robot TX: ON
+2017-Mar-13 15:09:19.022  Debug   Runtime      Thread Enable Exit
+2017-Mar-13 15:09:19.022  Debug   Robot        UnLocked
+2017-Mar-13 15:09:19.022  Debug   Startup      Fixture Manager initializing
+2017-Mar-13 15:09:19.023  Debug   Runtime      Registering Fixture: Fixture A
+2017-Mar-13 15:09:19.023  Debug   Runtime      X=324.3326, Y=46.6852, Z=-62.865, RX=0, RY=0, RZ=0
+2017-Mar-13 15:09:19.023  Debug   Startup      ProgramManager initializing
+2017-Mar-13 15:09:19.024  Event   Runtime      Loaded Program C:\GitHub\EasyCoat\Main Application\Programs\Macro1.ECM
+2017-Mar-13 15:09:19.024  Debug   Runtime      File: C:\GitHub\EasyCoat\Main Application\Programs\Macro11.jpg does not exist
+2017-Mar-13 15:09:19.024  Debug   Runtime      File: C:\GitHub\EasyCoat\Main Application\Programs\Macro12.jpg does not exist
+2017-Mar-13 15:09:19.024  Event   Runtime      Loaded Program C:\trunk ver 590 snapshotNew\Main Application\Programs\GPVTest.ECW
+2017-Mar-13 15:09:19.024  Debug   Runtime      File: C:\trunk ver 590 snapshotNew\Main Application\Programs\GPVTest1.jpg does not exist
+2017-Mar-13 15:09:19.024  Debug   Runtime      File: C:\trunk ver 590 snapshotNew\Main Application\Programs\GPVTest2.jpg does not exist
+2017-Mar-13 15:09:19.024  Debug   Runtime      File: C:\trunk ver 590 snapshotNew\Main Application\Programs\GPVTest_MAIN_1.jpg does not exist
+2017-Mar-13 15:09:19.024  Debug   Runtime      File: C:\trunk ver 590 snapshotNew\Main Application\Programs\GPVTest_MAIN_2.jpg does not exist
+2017-Mar-13 15:09:19.024  Debug   Startup      Conveyor Manager initializing
+2017-Mar-13 15:09:19.030  Event   Startup      Activating C940ConveyorModule Module
+2017-Mar-13 15:09:19.031  Debug   Startup      Creating Conveyor
+2017-Mar-13 15:09:19.031  Debug   Comm         Invalidating Cache
+2017-Mar-13 15:09:19.031  Debug   Conveyor     Conveyor State = cssIdle
+2017-Mar-13 15:09:19.031  Debug   Robot        CorrectionMap Disabled
+2017-Mar-13 15:09:19.051  Debug   Startup      940 Conveyor Thread ID=$00006418
+2017-Mar-13 15:09:19.051  Debug   Startup      T940Conveyor.Create finished
+2017-Mar-13 15:09:19.056  Debug   Conveyor     Created Fixture Adjust Mechanism: T940WidthAdjustMechanism
+2017-Mar-13 15:09:19.057  Debug   Robot        No Calibration File Specified.  Calibration Disabled
+2017-Mar-13 15:09:19.057  Warning Startup      TBD: create qspi mgr here?
+2017-Mar-13 15:09:21.823  Debug   Comm         SL-94X Automove Robot RX: 144703488 x8a00000<0x D>
+2017-Mar-13 15:09:21.823  Debug   Comm         SL-94X Automove Robot TX: DI32;
+2017-Mar-13 15:09:21.831  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.832  Debug   Comm         SL-94X Automove Robot TX: DI33;
+2017-Mar-13 15:09:21.840  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.841  Debug   Comm         SL-94X Automove Robot TX: DI34;
+2017-Mar-13 15:09:21.849  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.850  Debug   Comm         SL-94X Automove Robot TX: DI35;
+2017-Mar-13 15:09:21.858  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.859  Debug   Comm         SL-94X Automove Robot TX: DI36;
+2017-Mar-13 15:09:21.867  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.868  Debug   Comm         SL-94X Automove Robot TX: DI37;
+2017-Mar-13 15:09:21.876  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.877  Debug   Comm         SL-94X Automove Robot TX: DI38;
+2017-Mar-13 15:09:21.885  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.886  Debug   Comm         SL-94X Automove Robot TX: DI39;
+2017-Mar-13 15:09:21.894  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.895  Debug   Comm         SL-94X Automove Robot TX: DI40;
+2017-Mar-13 15:09:21.903  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.904  Debug   Comm         SL-94X Automove Robot TX: DI41;
+2017-Mar-13 15:09:21.912  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.913  Debug   Comm         SL-94X Automove Robot TX: DI42;
+2017-Mar-13 15:09:21.921  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.922  Debug   Comm         SL-94X Automove Robot TX: DI43;
+2017-Mar-13 15:09:21.930  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.931  Debug   Comm         SL-94X Automove Robot TX: DI44;
+2017-Mar-13 15:09:21.939  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.940  Debug   Comm         SL-94X Automove Robot TX: DI45;
+2017-Mar-13 15:09:21.948  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.949  Debug   Comm         SL-94X Automove Robot TX: DI46;
+2017-Mar-13 15:09:21.957  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.958  Debug   Comm         SL-94X Automove Robot TX: DI47;
+2017-Mar-13 15:09:21.966  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.967  Debug   Comm         SL-94X Automove Robot TX: DI48;
+2017-Mar-13 15:09:21.975  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.976  Debug   Comm         SL-94X Automove Robot TX: DI49;
+2017-Mar-13 15:09:21.984  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.985  Debug   Comm         SL-94X Automove Robot TX: DI50;
+2017-Mar-13 15:09:21.993  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:21.994  Debug   Comm         SL-94X Automove Robot TX: DI51;
+2017-Mar-13 15:09:22.002  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.003  Debug   Comm         SL-94X Automove Robot TX: DI52;
+2017-Mar-13 15:09:22.011  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.012  Debug   Comm         SL-94X Automove Robot TX: DI53;
+2017-Mar-13 15:09:22.020  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.021  Debug   Comm         SL-94X Automove Robot TX: DI54;
+2017-Mar-13 15:09:22.029  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.030  Debug   Comm         SL-94X Automove Robot TX: DI55;
+2017-Mar-13 15:09:22.038  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.039  Debug   Comm         SL-94X Automove Robot TX: DI56;
+2017-Mar-13 15:09:22.046  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.047  Debug   Comm         SL-94X Automove Robot TX: DI57;
+2017-Mar-13 15:09:22.055  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.056  Debug   Comm         SL-94X Automove Robot TX: DI58;
+2017-Mar-13 15:09:22.064  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.065  Debug   Comm         SL-94X Automove Robot TX: DI59;
+2017-Mar-13 15:09:22.073  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.074  Debug   Comm         SL-94X Automove Robot TX: DI60;
+2017-Mar-13 15:09:22.082  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.083  Debug   Comm         SL-94X Automove Robot TX: DI61;
+2017-Mar-13 15:09:22.091  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.092  Debug   Comm         SL-94X Automove Robot TX: DI62;
+2017-Mar-13 15:09:22.100  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.101  Debug   Comm         SL-94X Automove Robot TX: DI63;
+2017-Mar-13 15:09:22.109  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.110  Debug   Comm         SL-94X Automove Robot TX: DI64;
+2017-Mar-13 15:09:22.118  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.118  Debug   Comm         SL-94X Automove Robot TX: DI65;
+2017-Mar-13 15:09:22.125  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.126  Debug   Comm         SL-94X Automove Robot TX: DI66;
+2017-Mar-13 15:09:22.134  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.134  Debug   Comm         SL-94X Automove Robot TX: DI67;
+2017-Mar-13 15:09:22.142  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.142  Debug   Comm         SL-94X Automove Robot TX: DI68;
+2017-Mar-13 15:09:22.150  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.150  Debug   Comm         SL-94X Automove Robot TX: DI69;
+2017-Mar-13 15:09:22.158  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.158  Debug   Comm         SL-94X Automove Robot TX: DI70;
+2017-Mar-13 15:09:22.166  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.166  Debug   Comm         SL-94X Automove Robot TX: DI71;
+2017-Mar-13 15:09:22.173  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.174  Debug   Comm         SL-94X Automove Robot TX: DI72;
+2017-Mar-13 15:09:22.181  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.182  Debug   Comm         SL-94X Automove Robot TX: DI73;
+2017-Mar-13 15:09:22.189  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.190  Debug   Comm         SL-94X Automove Robot TX: DI74;
+2017-Mar-13 15:09:22.197  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.198  Debug   Comm         SL-94X Automove Robot TX: DI75;
+2017-Mar-13 15:09:22.205  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.206  Debug   Comm         SL-94X Automove Robot TX: DI76;
+2017-Mar-13 15:09:22.213  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.214  Debug   Comm         SL-94X Automove Robot TX: DI77;
+2017-Mar-13 15:09:22.221  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.222  Debug   Comm         SL-94X Automove Robot TX: DI78;
+2017-Mar-13 15:09:22.229  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.230  Debug   Comm         SL-94X Automove Robot TX: DI79;
+2017-Mar-13 15:09:22.237  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.238  Debug   Comm         SL-94X Automove Robot TX: DI80;
+2017-Mar-13 15:09:22.245  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.246  Debug   Comm         SL-94X Automove Robot TX: DI81;
+2017-Mar-13 15:09:22.253  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.254  Debug   Comm         SL-94X Automove Robot TX: DI82;
+2017-Mar-13 15:09:22.261  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.262  Debug   Comm         SL-94X Automove Robot TX: DI83;
+2017-Mar-13 15:09:22.269  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.270  Debug   Comm         SL-94X Automove Robot TX: DI84;
+2017-Mar-13 15:09:22.277  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.278  Debug   Comm         SL-94X Automove Robot TX: DI85;
+2017-Mar-13 15:09:22.285  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.286  Debug   Comm         SL-94X Automove Robot TX: DI86;
+2017-Mar-13 15:09:22.293  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.294  Debug   Comm         SL-94X Automove Robot TX: DI87;
+2017-Mar-13 15:09:22.301  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.302  Debug   Comm         SL-94X Automove Robot TX: DI88;
+2017-Mar-13 15:09:22.309  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.310  Debug   Comm         SL-94X Automove Robot TX: DI89;
+2017-Mar-13 15:09:22.317  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.318  Debug   Comm         SL-94X Automove Robot TX: DI90;
+2017-Mar-13 15:09:22.325  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.326  Debug   Comm         SL-94X Automove Robot TX: DI91;
+2017-Mar-13 15:09:22.333  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.334  Debug   Comm         SL-94X Automove Robot TX: DI92;
+2017-Mar-13 15:09:22.341  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.342  Debug   Comm         SL-94X Automove Robot TX: DI93;
+2017-Mar-13 15:09:22.349  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.350  Debug   Comm         SL-94X Automove Robot TX: DI94;
+2017-Mar-13 15:09:22.357  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.358  Debug   Comm         SL-94X Automove Robot TX: DI95;
+2017-Mar-13 15:09:22.365  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.366  Debug   Comm         SL-94X Automove Robot TX: DI96;
+2017-Mar-13 15:09:22.373  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>
+2017-Mar-13 15:09:22.374  Debug   Comm         SL-94X Automove Robot TX: DI97;
+2017-Mar-13 15:09:22.382  Warning Runtime      Dump End
+2017-Mar-13 15:09:22.382  Error   Comm         Attempted to open invalid com port 2
+2017-Mar-13 15:09:28.427  Event   Production   Ready
+2017-Mar-13 15:09:28.453  Event   Startup      Activating GeneralFluidSystemModule Module
+2017-Mar-13 15:09:28.456  Event   Startup      ECW Registry (C:\GitHub\EasyCoat\Main Application\LocalRegistry.ini) loaded
+2017-Mar-13 15:09:28.462  Event   Startup      Windows 7 Version 6.1
+2017-Mar-13 15:09:28.462  Event   Startup      Build 7601 Service Pack 1
+2017-Mar-13 15:09:29.435  Event   Startup      Activating GeneralModule Module
+2017-Mar-13 15:09:29.441  Event   Startup      Activating MotionModule Module
+2017-Mar-13 15:09:29.446  Event   Startup      Activating ControlModule Module
+2017-Mar-13 15:09:29.471  Event   Startup      ECW Version 6.0.0.188
+2017-Mar-13 15:09:29.765  Warning Runtime      Dump Start
+2017-Mar-13 15:09:28.311  Debug   Robot        TACLDevice.Test begin
+2017-Mar-13 15:09:28.311  Debug   Comm         TRS232ACLPlusPort.Test Begin
+2017-Mar-13 15:09:28.334  Debug   Robot        Controller Firmware Version: unknown
+2017-Mar-13 15:09:28.334  Debug   Startup      ExecutionManager initializing
+2017-Mar-13 15:09:28.352  Debug   Startup      Program Execution Thread ID=$00006650
+2017-Mar-13 15:09:28.352  Debug   Startup      ExecutionManager initializing
+2017-Mar-13 15:09:28.352  Debug   Startup      RotateTable: Delete Begin
+2017-Mar-13 15:09:28.352  Debug   Startup      RotateTable: Delete done, Packing...
+2017-Mar-13 15:09:28.352  Debug   Startup      RotateTable: Pack done
+2017-Mar-13 15:09:28.352  Debug   Runtime      Table Rotate And Resequence Complete
+2017-Mar-13 15:09:28.390  Debug   Startup      Nord Timer Thread ID=$00006174
+2017-Mar-13 15:09:28.427  Debug   Production   Production State = psReady
+2017-Mar-13 15:09:28.427  Debug   Startup      Production Manager Thread ID=$00006168
+2017-Mar-13 15:09:28.427  Event   Production   Ready
+2017-Mar-13 15:09:28.427  Debug   Production   Adding Fault: Not Running Production
+2017-Mar-13 15:09:28.427  Debug   Runtime      Fault Status Yellow
+2017-Mar-13 15:09:28.427  Debug   Runtime      FAULT DISPLAY=YELLOW
+2017-Mar-13 15:09:28.427  Debug   Production   Add Fault Done
+2017-Mar-13 15:09:28.427  Debug   Runtime      SILENCED=NO
+2017-Mar-13 15:09:28.429  Debug   Startup      ProductionManager initializing
+2017-Mar-13 15:09:28.429  Debug   Startup      ID System Manager initializing
+2017-Mar-13 15:09:28.429  Debug   Startup      Maintenance Manager initializing
+2017-Mar-13 15:09:28.429  Debug   Startup      Fluid System Manager initializing
+2017-Mar-13 15:09:28.449  Debug   Startup      Nord Timer Thread ID=$00004C38
+2017-Mar-13 15:09:28.450  Debug   Startup      Nord Timer Thread ID=$00006088
+2017-Mar-13 15:09:28.452  Debug   Startup      Program Execution Thread ID=$000060FC
+2017-Mar-13 15:09:28.453  Event   Startup      Activating GeneralFluidSystemModule Module
+2017-Mar-13 15:09:28.456  Event   Startup      ECW Registry (C:\GitHub\EasyCoat\Main Application\LocalRegistry.ini) loaded
+2017-Mar-13 15:09:28.456  Debug   Startup      Found Startup. Running...
+2017-Mar-13 15:09:28.462  Event   Startup      Windows 7 Version 6.1
+2017-Mar-13 15:09:28.462  Event   Startup      Build 7601 Service Pack 1
+2017-Mar-13 15:09:28.462  Debug   Startup      DataModuleMain Create Finished
+2017-Mar-13 15:09:28.464  Debug   Robot        Lock enter
+2017-Mar-13 15:09:28.464  Debug   Runtime      Thread Disable Enter
+2017-Mar-13 15:09:28.796  Debug   Startup      Operator Form Create Begin
+2017-Mar-13 15:09:29.390  Debug   Startup      Edit Form Create Begin
+2017-Mar-13 15:09:29.390  Debug   Startup      Edit Form Create 1
+2017-Mar-13 15:09:29.390  Debug   Startup      Edit Form Create 2
+2017-Mar-13 15:09:29.390  Debug   Startup      Edit Form Create 3
+2017-Mar-13 15:09:29.390  Debug   Startup      Edit Form Create 4
+2017-Mar-13 15:09:29.419  Debug   Startup      Edit Form Create 5
+2017-Mar-13 15:09:29.425  Debug   Startup      Edit Form Create 6
+2017-Mar-13 15:09:29.429  Debug   Startup      Edit Form Create 7
+2017-Mar-13 15:09:29.435  Event   Startup      Activating GeneralModule Module
+2017-Mar-13 15:09:29.441  Event   Startup      Activating MotionModule Module
+2017-Mar-13 15:09:29.446  Event   Startup      Activating ControlModule Module
+2017-Mar-13 15:09:29.446  Debug   Startup      Edit Form Create 8
+2017-Mar-13 15:09:29.448  Debug   Startup      Edit Form Create 9
+2017-Mar-13 15:09:29.448  Debug   Startup      Edit Form Create 10
+2017-Mar-13 15:09:29.448  Debug   Startup      Edit Form Create 11
+2017-Mar-13 15:09:29.449  Debug   Startup      Edit Form Create 12
+2017-Mar-13 15:09:29.451  Debug   Startup      Edit Form Create 13
+2017-Mar-13 15:09:29.451  Debug   Startup      Edit Form Create 14
+2017-Mar-13 15:09:29.458  Debug   Startup      Edit Form Create Complete
+2017-Mar-13 15:09:29.458  Debug   Startup      Edit Form Create Complete
+2017-Mar-13 15:09:29.463  Debug   Startup      Operator Form Create Complete
+2017-Mar-13 15:09:29.471  Event   Startup      ECW Version 6.0.0.188
+2017-Mar-13 15:09:29.510  Debug   Startup      Password Control Form Create Begin
+2017-Mar-13 15:09:29.511  Debug   Startup      Password Control Form Create 1
+2017-Mar-13 15:09:29.511  Debug   Startup      Password Control Form Create 2
+2017-Mar-13 15:09:29.511  Debug   Startup      Password Control Form Create 3
+2017-Mar-13 15:09:29.511  Debug   Startup      Password Control Form Create 4
+2017-Mar-13 15:09:29.511  Debug   Startup      Password Control Form Create 5
+2017-Mar-13 15:09:29.511  Debug   Startup      Password Control Form Create 6
+2017-Mar-13 15:09:29.512  Debug   Startup      Password Control Form Create 7
+2017-Mar-13 15:09:29.512  Debug   Startup      Password Control Form Create 8
+2017-Mar-13 15:09:29.512  Debug   Startup      Password Control Form Create 9
+2017-Mar-13 15:09:29.512  Debug   Startup      Password Control Form Create 10
+2017-Mar-13 15:09:29.512  Debug   Startup      Password Control Form Create Complete
+2017-Mar-13 15:09:29.516  Debug   Startup      Password Control Form Create Complete
+2017-Mar-13 15:09:29.526  Debug   Startup      Password Form Create Begin
+2017-Mar-13 15:09:29.748  Debug   Runtime      TFormOperator.EnableProductionView
+2017-Mar-13 15:09:29.761  Debug   Runtime      Fault Status Yellow
+2017-Mar-13 15:09:29.761  Debug   Runtime      FAULT DISPLAY=YELLOW
+2017-Mar-13 15:09:29.764  Debug   Startup      Setting nominal timeout
+2017-Mar-13 15:09:29.764  Debug   Runtime      TFormOperator.EnableProductionView
+2017-Mar-13 15:09:29.764  Debug   Production   Production Ready Status Event
+2017-Mar-13 15:09:29.765  Warning Runtime      Dump End
+2017-Mar-13 15:09:29.765  Error   Comm         SL-94X Automove Robot Communication Timeout
