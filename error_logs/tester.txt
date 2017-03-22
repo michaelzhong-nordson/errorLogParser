@@ -1,0 +1,3 @@
+2017-Feb-27 12:44:00.214  Debug   Runtime      Thread Disable Enter
+2017-Feb-27 12:44:00.264  Debug   Comm         SL-94X Automove Robot RX: 0<0x D>16904<0x D>
+2017-Feb-27 12:44:00.265  Debug   Comm         GetStringResponse: re-requesting (.O) (116904)

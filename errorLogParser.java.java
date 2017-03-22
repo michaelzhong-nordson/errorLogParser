@@ -19,37 +19,36 @@ class errorLogParser {
 			fc.showOpenDialog(null);
 			input = fc.getSelectedFile();
 			Scanner scan = new Scanner(input);
-			Scanner scan2;
 			while(scan.hasNextLine()){
-				String logMsg_Str = "";
+				String logMsg_Str = " ";
 
-				String temp = scan.nextLine().toString();
-				System.out.println("Working with Line: " + temp);
-				scan2 = new Scanner(temp);
+				String temp = scan.nextLine();
 
-				int i = 0;
+				Scanner scan2 = new Scanner(temp);
 
-				while(scan2.hasNext() && i < 4){
-					parsed_line.add(i, scan2.next());
-					System.out.println("Adding word " + parsed_line.get(i));
-					i++;
-				}
+				parsed_line.add(0, scan2.next());
 
+				parsed_line.add(1, scan2.next());
+
+				parsed_line.add(2, scan2.next());
+
+				parsed_line.add(3, scan2.next());
 
 				while(scan2.hasNext()){
-					logMsg_Str += scan2.next().toString() + " ";
-					System.out.println("new String: " + logMsg_Str);
+					System.out.println("Adding logMsg to Index 4");
+					logMsg_Str += scan2.next()+ " ";
+					
+					System.out.println(logMsg_Str);
 					parsed_line.add(4, logMsg_Str);
 				}
 
-				scan2.close();
-
-				System.out.println(parsed_line.get(0) + " " + parsed_line.get(1) + " " +parsed_line.get(2) + " " + 
-					parsed_line.get(3) + " " +parsed_line.get(4));
+				System.out.println("Line Array: Index 0: " + parsed_line.get(0) + " Index 1: " + parsed_line.get(1) + " Index 2 " +parsed_line.get(2) + " Index 3 " + 
+					parsed_line.get(3) + " Index 4: " +parsed_line.get(4));
 
 				// Check for unique event types
 				if (!logType.containsKey(parsed_line.get(2))){
 					logType = newType(logType, parsed_line);
+					continue;
 				}
 				
 				else{
@@ -58,6 +57,7 @@ class errorLogParser {
 					if(!logStage_buff.containsKey(parsed_line.get(3))){
 						logStage_buff = newLocation(parsed_line);
 						logType.put(parsed_line.get(2), logStage_buff);
+						continue;
 					}
 
 					else{
@@ -67,12 +67,16 @@ class errorLogParser {
 							logMsg_buff = newMsg(logMsg_buff, parsed_line.get(4));
 							logStage_buff.put(parsed_line.get(3), logMsg_buff);
 							logType.put(parsed_line.get(2), logStage_buff);
+							continue;
 						}
+
+						else
+							continue;
 					}
 				}
 			}
 		}catch(Exception e){
-			e.printStackTrace(System.out);
+			System.out.println(e);
 		}
 
 	}

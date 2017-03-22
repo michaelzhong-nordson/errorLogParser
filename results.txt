@@ -1,0 +1,8 @@
+2017-Feb-27 12:44:00.214 Debug Runtime Thread Disable Enter 
+2017-Feb-27 12:44:00.264 Debug Comm SL-94X Automove Robot RX: 0<0x D>16904<0x D> 
+2017-Feb-27 12:44:00.265 Debug Comm GetStringResponse: re-requesting (.O) (0 
+16904) 2017-Feb-27 12:44:00.265 Debug Comm
+java.lang.NullPointerException
+	at java.io.FileInputStream.<init>(FileInputStream.java:130)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at errorLogParser.main(errorLogParser.java:21)
